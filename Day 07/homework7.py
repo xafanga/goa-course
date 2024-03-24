@@ -1,9 +1,9 @@
 # მომხმარებელს შემოიტანეთ 3 სხვადასხვა მონაცემტა ტიპი  და გაიგეთ თუ რომელ მონაცემტა ტიპს მიეკუთვნება შემოტანილი ინფორმაცია
-age = input("Enter your age : ")
+age = int(input("Enter your age : "))
 print(type(age))
-balance = input("Enter balance")
+balance = str(input("Enter balance"))
 print(type(balance))
-cost = input("Enter cost")
+cost = float(input("Enter cost"))
 print(type(cost))
 
 
